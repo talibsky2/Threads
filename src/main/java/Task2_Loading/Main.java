@@ -1,7 +1,14 @@
 package Task2_Loading;
 
-public class Main extends Thread {
-    public static void main(String[] args) {
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
 
+public class Main extends Thread {
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
+        Service service = new Service();
+        Thread1 thread1 = new Thread1(service);
+        FutureTask<String> future = new FutureTask<>(thread1);
+        new Thread(future).start();
+        System.out.println(future.get());
     }
 }
