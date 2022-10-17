@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aca89f3-5426-4180-8bab-a1b59f20ba32" name="Changes" comment="let`s start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task3_Coll100/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempCallable.java" afterDir="false" />
+    <list default="true" id="1aca89f3-5426-4180-8bab-a1b59f20ba32" name="Changes" comment="Continue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempTask3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/ThreadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task3_Coll100/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task3_Coll100/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task4_Run/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/Task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TempTask3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task3_Coll100.Main" />
       <module name="Threads" />
@@ -107,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TempExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TempPack.TempExample" />
+    <configuration name="TempTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TempPack.TempTask3" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Task2_Loading.Main" />
-        <item itemvalue="Application.TempCallable" />
+        <item itemvalue="Application.TempTask3" />
         <item itemvalue="Application.Task1_ABC.Main" />
-        <item itemvalue="Application.TempExample" />
+        <item itemvalue="Application.Task2_Loading.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TempCallable" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +142,8 @@
       <workItem from="1665333180744" duration="5992000" />
       <workItem from="1665565652173" duration="24020000" />
       <workItem from="1665925170799" duration="2280000" />
-      <workItem from="1665929260984" duration="1649000" />
+      <workItem from="1665929260984" duration="2458000" />
+      <workItem from="1666002683183" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="let`s start">
       <created>1665591004674</created>
@@ -155,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665591004674</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Continue">
+      <created>1665931104368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665931104368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="let`s start" />
-    <option name="LAST_COMMIT_MESSAGE" value="let`s start" />
+    <MESSAGE value="Continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue" />
   </component>
 </project>
