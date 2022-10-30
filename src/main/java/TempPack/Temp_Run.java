@@ -17,10 +17,10 @@ public class Temp_Run {
         while (START.getCount() > 3) //Проверяем, собрались ли все автомобили
             Thread.sleep(100);              //у стартовой прямой. Если нет, ждем 100ms
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         System.out.println("На старт!");
         START.countDown();//Команда дана, уменьшаем счетчик на 1
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         System.out.println("Внимание!");
         START.countDown();//Команда дана, уменьшаем счетчик на 1
         Thread.sleep(1000);

@@ -3,52 +3,30 @@ package Task4_Run;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
 public class RaceUtils {
+    private static final CountDownLatch START = new CountDownLatch(3);
     @Setter
     @Getter
-    private static double startTime;
+    private long startTime;
     @Setter
     @Getter
-    private static double endTime;
+    private long endTime;
     @Setter
     @Getter
-    private static double raceTime;
-    @Setter
-    @Getter
-    public boolean startFlag;
-    @Setter
-    @Getter
-    private int startCounter = 10;
-    public synchronized void startLine(RaceUtils raceUtils) throws InterruptedException {
-        wait(500);
-        System.out.println(Thread.currentThread().getName() + " ready to go");
-        wait(500);
-        try {
-            raceUtils.countDown();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+    private long raceTime;
+    public void startTime () {
+        setStartTime(System.currentTimeMillis());
     }
-    public synchronized void countDown () throws InterruptedException {
-        System.out.println(getStartCounter());
-        startCounter--;
-        startRace();
-        Thread.sleep(100);
-        if (isStartFlag()){
-            Thread.sleep(200);
-            System.out.println();
-            System.out.println("Start");
-        }
+    public void endTime () {
+        setEndTime(System.currentTimeMillis());
     }
-    public void startRace () {
-        if (getStartCounter() == 0){
-            setStartFlag(true);
-        }
+    public void raceTime () {
+        setRaceTime(getEndTime() - getStartTime());
     }
-
      public static void stop(ExecutorService executor) {
         try {
             executor.shutdown();

@@ -5,43 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aca89f3-5426-4180-8bab-a1b59f20ba32" name="Changes" comment="Continue3">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task1_ABC/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/RaceTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/RaceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempTask4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/Temp_HappensBefore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/Temp_Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TempPack/Temp_Volatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task1_ABC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1_ABC/Task1_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task1_ABC/Monitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/Task2_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/ThreadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task2_Loading/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2_Loading/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task3_Coll100/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task3_Coll100/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task3_Coll100/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task4_Run/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/Task4_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempClassExtendsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempClassExtendsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempClassImplementsRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempClassImplementsRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempClassSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempClassSynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/TempProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/TempTask3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task4_Run/RaceTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/RaceTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task4_Run/RaceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/RaceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task4_Run/Task4_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4_Run/Task4_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TempPack/Temp_Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TempPack/Temp_Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Temp_Run">
+  <component name="RunManager" selected="Application.Task4_Main">
     <configuration name="Task1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1_ABC.Task1_Main" />
       <module name="Threads" />
@@ -158,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task4_Main" />
         <item itemvalue="Application.Temp_Run" />
         <item itemvalue="Application.Task1_Main" />
-        <item itemvalue="Application.Task4_Main" />
         <item itemvalue="Application.Temp_HappensBefore" />
         <item itemvalue="Application.TempProducerConsumer" />
       </list>
@@ -199,7 +167,8 @@
       <workItem from="1666694577468" duration="2364000" />
       <workItem from="1667140831524" duration="1364000" />
       <workItem from="1667145315377" duration="656000" />
-      <workItem from="1667146619047" duration="359000" />
+      <workItem from="1667146619047" duration="826000" />
+      <workItem from="1667147456719" duration="6314000" />
     </task>
     <task id="LOCAL-00001" summary="let`s start">
       <created>1665591004674</created>
@@ -222,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666005082107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Continue3">
+      <created>1667147047510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667147047510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
