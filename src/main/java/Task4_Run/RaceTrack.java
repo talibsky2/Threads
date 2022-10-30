@@ -8,7 +8,6 @@ import java.util.concurrent.Semaphore;
 
 class Race implements Runnable {
     private static final CountDownLatch start = new CountDownLatch(3);
-
     @SneakyThrows
     @Override
     public void run() {
@@ -28,39 +27,41 @@ class Race implements Runnable {
     }
 
     public void countDown() throws InterruptedException {
-        Thread.sleep(300);
+        Thread.sleep(500);
         System.out.println("На старт!");
         start.countDown();
-        Thread.sleep(300);
+        Thread.sleep(500);
         System.out.println("Внимание!");
         start.countDown();
-        Thread.sleep(300);
+        Thread.sleep(500);
         System.out.println("Марш!");
+        Thread.sleep(500);
         start.countDown();
     }
 }
 
 class Track implements Runnable {
     RaceUtils utils = new RaceUtils();
+    Semaphore semaphore = new Semaphore(3);
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName() + " started at time: " + System.currentTimeMillis());
         utils.startTime();
     }
 
-    public void commonRoad() {
-        int i = 0;
-        for (int j = 0; j < 10000000; j++) {
-            i++;
-        }
+    public void commonRoad() throws InterruptedException {
+        final long max = 1000;
+        final long rnd = RaceUtils.rnd(max);
         System.out.println(Thread.currentThread().getName() + " on common road");
+        Thread.sleep(rnd);
     }
-    public void tunnel () {
-        int i = 0;
-        for (int j = 0; j < 10000000; j++) {
-            i++;
-        }
+    public void tunnel () throws InterruptedException {
+        final long max = 1000;
+        final long rnd = RaceUtils.rnd(max);
+        semaphore.acquire();
         System.out.println(Thread.currentThread().getName() + " in tunnel");
+        Thread.sleep(rnd);
+        semaphore.release();
     }
     public void finish () {
         utils.endTime();
